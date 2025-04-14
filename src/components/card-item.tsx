@@ -17,7 +17,7 @@ type Projeto = {
 
 // Mapeamento de imagens para projetos
 const projetoImagens: { [key: string]: string[] } = {
-  "awax-clone": ["/projimg/awax-1.png", "/projimg/awax-2.png"],
+  "awax-clone": ["/projimg/awax-1.png", "/projimg/awax-2.png", "/projimg/awax-3.png", "/projimg/awax-4.png", "/projimg/awax-5.png", "/projimg/awax-6.png", "/projimg/awax-7.png"],
   "briefing-marca": ["/projimg/bmar-1.png", "/projimg/bmar-2.png"],
   "canvas-checkbox": ["/projimg/canvas-1.png"],
   "clone-twitter-frontend": ["/projimg/tweet-1.png", "/projimg/tweet-2.png", "/projimg/tweet-3.png", "/projimg/tweet-4.png"],
@@ -32,7 +32,7 @@ const projetoImagens: { [key: string]: string[] } = {
   "loja-giga-tech": ["/projimg/gt-1.png", "/projimg/gt-2.png"],
   "medicenter-clone": ["/projimg/medc-1.png", "/projimg/medc-2.png"],
   "pnamoro": ["/projimg/pn-1.png"],
-  "starbuck": ["/projimg/starb-1.png", "/projimg/starb-2.png", "/projimg/starb-3.png"],
+  "starbuck": ["/projimg/starb-1.png", "/projimg/starb-2.png", "/projimg/starb-3.png", "/projimg/starb-4.png", "/projimg/starb-5.png", "/projimg/starb-6.png"],
   "temperatura-via-cep": ["/projimg/lt-1.png", "/projimg/lt-2.png"],
   
   // Adicione mais projetos e suas imagens aqui
