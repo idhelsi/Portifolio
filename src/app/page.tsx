@@ -13,7 +13,7 @@ const Page = () => {
         />
         <section className="mt-2 md:-mt-10">
             <h3 className="ml-5 text-2xl text-[#dfdfe4] font-bold mb-4">Projetos</h3>
-            <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 px-2">
+            <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 px-2 lg:px-0">
               <CardItem />
             </div>
         </section>
