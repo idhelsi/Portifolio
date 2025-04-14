@@ -10,7 +10,7 @@ export const Social = ({ url, icon }: Props) => {
   return (
     
       <a
-        className="size-6 text-fundo text-3xl hover:text-orange-950"
+        className="size-6 text-fundo text-3xl text-[#dfdfe4] hover:text-[#798189]"
         target="_blank"
         href={url}
         // href="https://www.instagram.com/idhelsi/"
