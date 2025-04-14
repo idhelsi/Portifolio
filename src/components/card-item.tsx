@@ -31,7 +31,7 @@ const projetoImagens: { [key: string]: string[] } = {
   "landing-page": ["/projimg/bur-1.png", "/projimg/bur-2.png"],
   "loja-giga-tech": ["/projimg/gt-1.png", "/projimg/gt-2.png"],
   "medicenter-clone": ["/projimg/medc-1.png", "/projimg/medc-2.png"],
-  "pnamoro": ["/projimg/pn-1.png"],
+  "pnamoro": ["/projimg/pn-1.png", "/projimg/pn-2.png", "/projimg/pn-3.png"],
   "starbuck": ["/projimg/starb-1.png", "/projimg/starb-2.png", "/projimg/starb-3.png", "/projimg/starb-4.png", "/projimg/starb-5.png", "/projimg/starb-6.png"],
   "temperatura-via-cep": ["/projimg/lt-1.png", "/projimg/lt-2.png"],
   
