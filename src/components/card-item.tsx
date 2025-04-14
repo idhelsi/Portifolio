@@ -27,7 +27,7 @@ const projetoImagens: { [key: string]: string[] } = {
   "flappy-bird": ["/projimg/flap-1.png", "/projimg/flap-2.png"],
   "gallery": ["/projimg/gallery-1.png"],
   "irmao-do-jorel": ["/projimg/jorel-1.png"],
-  "jogo-da-velha": ["/projimg/jvelha-1.png"],
+  "jogo-da-velha": ["/projimg/jvelha-1.png", "/projimg/jvelha-2.png"],
   "landing-page": ["/projimg/bur-1.png", "/projimg/bur-2.png"],
   "loja-giga-tech": ["/projimg/gt-1.png", "/projimg/gt-2.png"],
   "medicenter-clone": ["/projimg/medc-1.png", "/projimg/medc-2.png"],
