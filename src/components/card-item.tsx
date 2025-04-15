@@ -33,7 +33,14 @@ const projetoImagens: { [key: string]: string[] } = {
   "medicenter-clone": ["/projimg/medc-1.png", "/projimg/medc-2.png"],
   "pnamoro": ["/projimg/pn-1.png", "/projimg/pn-2.png", "/projimg/pn-3.png"],
   "starbuck": ["/projimg/starb-1.png", "/projimg/starb-2.png", "/projimg/starb-3.png", "/projimg/starb-4.png", "/projimg/starb-5.png", "/projimg/starb-6.png"],
+  "iphone-13-clone": ["/projimg/ipo-1.png", "/projimg/ipo-2.png", "/projimg/ipo-3.png", "/projimg/ipo-4.png", "/projimg/ipo-5.png"],
+  "whatsapp-clone": ["/projimg/wpp-1.png", "/projimg/wpp-2.png", "/projimg/wpp-3.png", "/projimg/wpp-4.png", "/projimg/wpp-5.png"],
   "temperatura-via-cep": ["/projimg/lt-1.png", "/projimg/lt-2.png"],
+  "quiz": ["/projimg/quiz-1.png", "/projimg/quiz-2.png", "/projimg/quiz-3.png"],
+  "react-calc-imc": ["/projimg/cimc-1.png", "/projimg/cimc-2.png", "/projimg/cimc-3.png"],
+  "react-memoria": ["/projimg/rmemo-1.png", "/projimg/rmemo-2.png"],
+  "multform": ["/projimg/mform-1.png", "/projimg/mform-2.png", "/projimg/mform-3.png"],
+  "rpg": ["/projimg/rpg-1.png"],
   
   // Adicione mais projetos e suas imagens aqui
 };
@@ -87,7 +94,7 @@ export const CardItem = () => {
         });
         return novoEstado;
       });
-    }, 4000);
+    }, 3000);
 
     return () => clearInterval(interval);
   }, [projetos]);
@@ -105,7 +112,7 @@ export const CardItem = () => {
             <div className="text-[#dfdfe4] w-full">
               <img
                 alt={`Imagem do projeto ${item.name}`}
-                className="mb-4 rounded-lg w-full"
+                className="mb-4 rounded-lg w-full h-44"
                 height="200"
                 src={imagemParaMostrar}
                 width="300"
