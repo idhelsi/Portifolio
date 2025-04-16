@@ -1,0 +1,28 @@
+export const projetoImagens: { [key: string]: string[] } = {
+    "awax-clone": ["/projimg/awax-1.png", "/projimg/awax-2.png", "/projimg/awax-3.png", "/projimg/awax-4.png", "/projimg/awax-5.png", "/projimg/awax-6.png", "/projimg/awax-7.png"],
+    "briefing-marca": ["/projimg/bmar-1.png", "/projimg/bmar-2.png"],
+    "canvas-checkbox": ["/projimg/canvas-1.png"],
+    "clone-twitter-frontend": ["/projimg/tweet-1.png", "/projimg/tweet-2.png", "/projimg/tweet-3.png", "/projimg/tweet-4.png"],
+    "e-commerce": ["/projimg/ecome-1.png", "/projimg/ecome-2.png"],
+    "expense-tracker": ["/projimg/expense-1.png"],
+    "faceda": ["/projimg/fd-1.png", "/projimg/fd-2.png", "/projimg/fd-3.png", "/projimg/fd-4.png"],
+    "flappy-bird": ["/projimg/flap-1.png", "/projimg/flap-2.png"],
+    "gallery": ["/projimg/gallery-1.png"],
+    "irmao-do-jorel": ["/projimg/jorel-1.png"],
+    "jogo-da-velha": ["/projimg/jvelha-1.png", "/projimg/jvelha-2.png"],
+    "landing-page": ["/projimg/bur-1.png", "/projimg/bur-2.png"],
+    "loja-giga-tech": ["/projimg/gt-1.png", "/projimg/gt-2.png"],
+    "medicenter-clone": ["/projimg/medc-1.png", "/projimg/medc-2.png"],
+    "pnamoro": ["/projimg/pn-1.png", "/projimg/pn-2.png", "/projimg/pn-3.png", "/projimg/pn-4.png", "/projimg/pn-5.png", "/projimg/pn-6.png", "/projimg/pn-7.png"],
+    "starbuck": ["/projimg/starb-1.png", "/projimg/starb-2.png", "/projimg/starb-3.png", "/projimg/starb-4.png", "/projimg/starb-5.png", "/projimg/starb-6.png"],
+    "iphone-13-clone": ["/projimg/ipo-1.png", "/projimg/ipo-2.png", "/projimg/ipo-3.png", "/projimg/ipo-4.png", "/projimg/ipo-5.png"],
+    "whatsapp-clone": ["/projimg/wpp-1.png", "/projimg/wpp-2.png", "/projimg/wpp-3.png", "/projimg/wpp-4.png", "/projimg/wpp-5.png"],
+    "temperatura-via-cep": ["/projimg/lt-1.png", "/projimg/lt-2.png"],
+    "quiz": ["/projimg/quiz-1.png", "/projimg/quiz-2.png", "/projimg/quiz-3.png"],
+    "react-calc-imc": ["/projimg/cimc-1.png", "/projimg/cimc-2.png", "/projimg/cimc-3.png"],
+    "react-memoria": ["/projimg/rmemo-1.png", "/projimg/rmemo-2.png"],
+    "multform": ["/projimg/mform-1.png", "/projimg/mform-2.png", "/projimg/mform-3.png"],
+    "rpg": ["/projimg/rpg-1.png"],
+    
+    // Adicione mais projetos e suas imagens aqui
+  };
