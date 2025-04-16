@@ -1,5 +1,6 @@
 "use client"
 
+import { Pacman } from "@/ui/pacman"
 import { api } from "@/utils/api"
 import { useState, useEffect } from "react"
 
@@ -61,11 +62,13 @@ const linguagemCores: { [key: string]: string } = {
 };
 
 export const CardItem = () => {
+  const [loading, setLoading] = useState(true)
   const [projetos, setProjetos] = useState<Projeto[]>([]);
   const [imagemAtual, setImagemAtual] = useState<{ [key: string]: number }>({});
 
   const loadProjetos = async () => {
     try {
+      
       const projetos = await api.getProjetos();
       setProjetos(projetos);
       const inicial = projetos.reduce((acc: { [key: string]: number }, item: Projeto) => {
@@ -75,11 +78,15 @@ export const CardItem = () => {
       setImagemAtual(inicial);
     } catch (erro) {
       console.error("Erro ao buscar os Projetos:", erro);
+    } finally {
+      setLoading(false)
     }
   };
 
   useEffect(() => {
+    
     loadProjetos();
+    
   }, []);
 
   useEffect(() => {
@@ -101,6 +108,7 @@ export const CardItem = () => {
 
   return (
     <>
+      {loading &&  <div className="flex justify-center md:-mr-96 lg:-mr-[800px]"><Pacman fill="#ffcc00" size={100}/></div>}
       {projetos.map((item) => {
         const imagens = projetoImagens[item.name.toLowerCase()];
         const imagemParaMostrar = imagens && imagens.length > 0 
@@ -108,6 +116,7 @@ export const CardItem = () => {
           : `https://opengraph.githubassets.com/1/idhelsi/${item.name}`;
         
         return (
+         
           <a key={item.id} href={item.html_url} target="_blank" rel="noopener noreferrer" className="bg-[#17161b] p-3 rounded-lg shadow-lg overflow-hidden">
             <div className="text-[#dfdfe4] w-full">
               <img
@@ -126,6 +135,7 @@ export const CardItem = () => {
               <p className="mt-2 h-20 text-[#798189]">{item.description}</p>
             </div>
           </a>
+          
         );
       })}
     </>
