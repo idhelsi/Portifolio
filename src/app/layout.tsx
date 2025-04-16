@@ -12,16 +12,47 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+// export const metadata: Metadata = {
+//   title: "Douglas Peltier",
+//   description: "Portifólio de Douglas",
+//   icons: {
+//     icon: '/ico.png',
+//   },
+//   openGraph: {
+//     images: "/images/landm.png"
+//   }
+// };
+
+// Metadata padrão para o site
 export const metadata: Metadata = {
   title: "Douglas Peltier",
   description: "Portifólio de Douglas",
   icons: {
-    icon: '/ico.png',
+    icon: "/images/favico.png",
   },
   openGraph: {
-    images: "/images/land.png"
-  }
+    title: "Douglas Peltier",
+    description: "Portifólio de Douglas",
+    url: "https://seudominio.com", // Substitua pelo seu domínio
+    siteName: "Douglas Peltier",
+    images: [
+      {
+        url: "/images/landm.png", // Substitua com a URL da sua imagem
+        width: 1200,
+        height: 630,
+        alt: "Imagem de compartilhamento do portfólio de Douglas",
+      },
+    ],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Douglas Peltier",
+    description: "Portifólio de Douglas",
+    images: ["https://seudominio.com/imagem-compartilhamento.png"],
+  },
 };
+
 
 export default function RootLayout({
   children,
