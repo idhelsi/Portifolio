@@ -9,7 +9,7 @@ const Page = () => {
         <Hero 
           name=" Douglas"
           prof="Software engineer"
-          description="Trabalho: JavaScript, TypeScript, HTML, CSS, Tailwindcss, React, Next js, PHP"
+          description="Trabalho com JavaScript, TypeScript, HTML, CSS, Tailwindcss, React, Next js, PHP"
         />
         <section className="mt-2 md:-mt-10">
           <h3 className="ml-5 text-2xl text-[#dfdfe4] font-bold mb-4">Projetos</h3>

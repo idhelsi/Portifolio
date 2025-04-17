@@ -9,7 +9,7 @@ type Props = {
 
 export const Hero = ({ name, prof, description }: Props) => {
     return (
-        <main className=" mt-48 flex items-center px-2 h-[460px] bg-[url(/images/landm.png)] md:h-[500px] md:m-0 md:px-0 md:bg-[url(/images/land.jpg)]  lg:bg-[url(/images/landll.jpg)] bg-cover bg-center">
+        <main className=" mt-48 flex items-center px-2 h-[460px] bg-[url(/imagens/landm.png)] md:h-[500px] md:m-0 md:px-0 md:bg-[url(/imagens/land.jpg)]  lg:bg-[url(/imagens/landll.jpg)] bg-cover bg-center">
             <div className="max-w-6xl mx-auto -mt-[600px] p-3 rounded-3xl md:shadow-lg md:p-10 md:m-0 md:ml-20 lg:ml-44 md:bg-[#25262a] ">
                 <h2 className="text-2xl font-bold mb-2 text-[#798189]">
                     Olá, me chamo  

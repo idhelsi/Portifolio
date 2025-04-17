@@ -28,16 +28,16 @@ export const metadata: Metadata = {
   title: "Douglas Peltier",
   description: "Portifólio de Douglas",
   icons: {
-    icon: "/images/favico.png",
+    icon: "/imagens/favico.png",
   },
   openGraph: {
     title: "Douglas Peltier",
     description: "Portifólio de Douglas",
-    url: "https://seudominio.com", // Substitua pelo seu domínio
+    url: "https://douglas.eco.br", 
     siteName: "Douglas Peltier",
     images: [
       {
-        url: "/images/landm.png", // Substitua com a URL da sua imagem
+        url: "/imagens/land.jpg", // Substitua com a URL da sua imagem
         width: 1200,
         height: 630,
         alt: "Imagem de compartilhamento do portfólio de Douglas",
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Douglas Peltier",
     description: "Portifólio de Douglas",
-    images: ["https://seudominio.com/imagem-compartilhamento.png"],
+    images: ["https://douglas.eco.br/imagens/land.png"],
   },
 };
 
