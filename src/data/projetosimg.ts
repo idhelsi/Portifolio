@@ -5,7 +5,7 @@ export const projetoImagens: { [key: string]: string[] } = {
     "clone-twitter-frontend": ["/projimg/tweet-1.png", "/projimg/tweet-2.png", "/projimg/tweet-3.png", "/projimg/tweet-4.png"],
     "e-commerce": ["/projimg/ecome-1.png", "/projimg/ecome-2.png"],
     "expense-tracker": ["/projimg/expense-1.png"],
-    "faceda": ["/projimg/fd-1.png", "/projimg/fd-2.png", "/projimg/fd-3.png", "/projimg/fd-4.png"],
+    "faced": ["/projimg/fd-1.png", "/projimg/fd-2.png", "/projimg/fd-3.png", "/projimg/fd-4.png"],
     "flappy-bird": ["/projimg/flap-1.png", "/projimg/flap-2.png"],
     "gallery": ["/projimg/gallery-1.png"],
     "irmao-do-jorel": ["/projimg/jorel-1.png"],
