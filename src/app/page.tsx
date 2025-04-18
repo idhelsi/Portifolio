@@ -8,7 +8,7 @@ const Page = () => {
     <div className="w-full max-w-6xl min-h-screen mx-auto overflow-hidden">
         <Hero 
           name=" Douglas"
-          prof="Software engineer"
+          prof="Desenvolvedor de sites fullStack"
           description="Trabalho com JavaScript, TypeScript, HTML, CSS, Tailwindcss, React, Next js, PHP"
         />
         <section className="mt-2 md:-mt-10">

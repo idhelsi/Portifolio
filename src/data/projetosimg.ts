@@ -24,5 +24,4 @@ export const projetoImagens: { [key: string]: string[] } = {
     "multform": ["/projimg/mform-1.png", "/projimg/mform-2.png", "/projimg/mform-3.png"],
     "rpg": ["/projimg/rpg-1.png"],
     
-    // Adicione mais projetos e suas imagens aqui
   };
