@@ -6,7 +6,7 @@ const request = axios.create({
 
 export const api = {
     getProjetos: async () => {
-        const req = await request('/repos');
+        const req = await request('/repos?sort=created&direction=desc');
         return req.data;
     }
 }
