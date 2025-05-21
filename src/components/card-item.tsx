@@ -39,7 +39,6 @@ export const CardItem = () => {
 
   const loadProjetos = async () => {
     try {
-      
       const projetos = await api.getProjetos();
       setProjetos(projetos);
       const inicial = projetos.reduce((acc: { [key: string]: number }, item: Projeto) => {

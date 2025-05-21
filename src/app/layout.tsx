@@ -12,19 +12,9 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-// export const metadata: Metadata = {
-//   title: "Douglas Peltier",
-//   description: "Portifólio de Douglas",
-//   icons: {
-//     icon: '/ico.png',
-//   },
-//   openGraph: {
-//     images: "/images/landm.png"
-//   }
-// };
-
 // Metadata padrão para o site
 export const metadata: Metadata = {
+  metadataBase: new URL("https://douglas.eco.br"),
   title: "Douglas Peltier",
   description: "Portifólio de Douglas",
   icons: {
